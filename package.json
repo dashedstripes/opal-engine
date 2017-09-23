@@ -1,0 +1,16 @@
+{
+  "name": "game-engine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --content-base build/"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  }
+}
