@@ -4,7 +4,7 @@ const path = require('path')
 const config = {
 
   entry: [
-    './src/MyGame/index.js'
+    './src/MyGame/MyGame.js'
   ],
 
   output: {

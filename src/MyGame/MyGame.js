@@ -15,5 +15,6 @@ class MyGame extends Game {
   }
 }
 
-export default MyGame
+let myGame = new MyGame()
+myGame.start()
 
