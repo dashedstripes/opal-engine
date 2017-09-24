@@ -4,7 +4,7 @@ class Player extends MoveableEntity {
   constructor(x, y, width, height, input) {
     super(x, y, width, height, input)
     this.speed = 7
-    this.color = '#0000ff';
+    this.color = '#00ffff';
   }
 
   events() {

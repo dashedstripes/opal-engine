@@ -8,8 +8,8 @@ class MyGame extends Game {
   }
 
   load() {
-    for (let i = 0; i < 20; i++) {
-      this.add(`block-${i}`, new Block(Math.floor(Math.random() * (this.width - 20)) + 1, Math.floor(Math.random() * (this.height - 20)) + 1, 20, 20))
+    for (let i = 0; i < 100; i++) {
+      this.add(`block-${i}`, new Block(Math.floor(Math.random() * (this.width - 20)) + 1, Math.floor(Math.random() * (this.height - 20)) + 1, 10, 10))
     }
     this.add('player', new Player(this.width / 2 - 10, this.height / 2 - 10, 20, 20, this.input))
   }
